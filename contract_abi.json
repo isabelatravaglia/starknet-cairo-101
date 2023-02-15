@@ -1,0 +1,43 @@
+[
+    {
+        "inputs": [],
+        "name": "tderc20_address",
+        "outputs": [
+            {
+                "name": "_tderc20_address",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "_tderc20_address",
+                "type": "felt"
+            },
+            {
+                "name": "_players_registry",
+                "type": "felt"
+            },
+            {
+                "name": "_workshop_id",
+                "type": "felt"
+            },
+            {
+                "name": "_exercise_id",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "name": "claim_points",
+        "outputs": [],
+        "type": "function"
+    }
+]
